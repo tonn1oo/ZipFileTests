@@ -18,7 +18,6 @@ import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 
 public class OpenZipFileTests {
     ClassLoader classLoader = OpenZipFileTests.class.getClassLoader();
-
     @Test
     void openPdfTest() throws Exception {
         ZipFile zf = new ZipFile(new File("src/test/resources/files/junit.zip"));
